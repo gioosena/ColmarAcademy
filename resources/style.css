@@ -129,10 +129,51 @@ container{
 
 .news-extra-info{
     width: 65%;
+    padding-right: 0.5rem;
 }
 
 .news-extra-info a{
     color: #5295E3
 }
 
+.grey-bg{
+    background-color: #D8D8D8;
+}
 
+/* Learning Section */
+.learning{
+    background-color: #EAEBEC;
+    overflow: auto;
+}
+
+.learning .start-learning{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.learning .grid{
+    margin: 0 4.5rem 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.courses .course{
+    background-color: white;
+}
+
+.course-info{
+    padding: 1rem 1rem 1.5rem;
+}
+
+.course-info h3{
+    padding-bottom: 1rem;
+}
+
+.course-info p:nth-of-type(1)
+{
+    padding: 0.5rem 0;
+}
+
+.grey-txt{
+    color: #767676;
+}
