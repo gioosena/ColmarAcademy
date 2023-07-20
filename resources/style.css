@@ -35,6 +35,11 @@ container{
     margin: 0 auto;
 }
 
+.section-title{
+    padding: 2rem 0;
+    text-align: center;
+}
+
 .flex{
     display: flex;
     justify-content: center;
@@ -146,11 +151,6 @@ container{
     overflow: auto;
 }
 
-.learning .start-learning{
-    padding: 2rem 0;
-    text-align: center;
-}
-
 .learning .grid{
     margin: 0 4.5rem 2rem;
     grid-template-columns: repeat(3, 1fr);
@@ -176,4 +176,42 @@ container{
 
 .grey-txt{
     color: #767676;
+}
+
+/* Thesis Section */
+.thesis{
+    background-color: #F3F5F5;
+}
+
+.video-exhibit{
+    padding: 0 1.5rem 1.5rem;
+    /* background-color: red; */
+}
+
+.video-exhibit h3{
+    margin: 1.5rem 0 0.5rem;
+}
+
+.thes-extra{
+    flex-direction: column;
+    align-items: start;
+}
+
+.thes-extra-img{
+    width: 35%;
+    padding: 1rem;
+}
+
+.thes-extra-info{
+    width: 65%;
+}
+
+/* Footer Section */
+footer .flex{
+    justify-content: space-between;
+    background-color: #F3F5F5;
+    height: 6.25rem;
+    font-size: 0.75rem;
+    border-top: 1px solid #d6d6d6;
+    align-items: start;
 }
