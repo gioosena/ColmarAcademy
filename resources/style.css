@@ -101,5 +101,38 @@ container{
     font-size: 1rem;
 }
 
+/* News Section */
+.news-focus{
+    padding: 2rem 1.5rem;
+}
+
+.news-focus h1{
+    margin: 2rem 0 1.5rem;
+}
+
+.news-text .info{
+    margin-bottom: 2rem;
+}
+/* News Section News-extra */
+.news .news-extra{
+    flex-direction: column;
+}
+
+.news-extra .articles{
+    border: 1px solid #c9c9c9;
+}
+
+.news-extra-img{
+    width: 35%;
+    padding: 1rem;
+}
+
+.news-extra-info{
+    width: 65%;
+}
+
+.news-extra-info a{
+    color: #5295E3
+}
 
 
